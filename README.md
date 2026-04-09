@@ -30,7 +30,7 @@ dependencies: [
 
 This package includes:
 - LevelPlay iOS SDK (Unity Mediation SDK)
-- Mintegral SDK v8.0.5
+- Mintegral SDK
 
 ## Documentation
 
