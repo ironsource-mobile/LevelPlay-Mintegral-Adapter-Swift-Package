@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "MintegralAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/mintegral-adapter/5.15.0/ISMintegralAdapter5.15.0.zip",
-      checksum: "9c17ef29b09e3380673f18b46bd62e8070334bd9d7433e9fd5a14f1bc6c4bd6c"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/mintegral-adapter/5.16.0/ISMintegralAdapter5.16.0.zip",
+      checksum: "b92c7c9f3ecab661af304e8dd1b5b1af86d77564b79a10db805fe83c636a4755"
     )
   ]
 )
