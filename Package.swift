@@ -8,7 +8,7 @@ let package = Package(
     .library(name: "MintegralAdapter", targets: ["MintegralAdapter"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package", exact: "8.1.4"),
+    .package(url: "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package", exact: "8.1.5"),
     .package(url: "https://github.com/ironsource-mobile/Unity-Mediation-iAds-Swift-Package", "9.2.0"..<"10.0.0"),
   ],
   targets: [
@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "MintegralAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/mintegral-adapter/5.16.0/ISMintegralAdapter5.16.0.zip",
-      checksum: "b92c7c9f3ecab661af304e8dd1b5b1af86d77564b79a10db805fe83c636a4755"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/mintegral-adapter/5.17.0/ISMintegralAdapter5.17.0.zip",
+      checksum: "2a48bd57546bee6163237487be519b3ac01b5cd13d16b2e7ff5f35677bbc25a0"
     )
   ]
 )
