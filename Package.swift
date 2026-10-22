@@ -8,7 +8,7 @@ let package = Package(
     .library(name: "MintegralAdapter", targets: ["MintegralAdapter"]),
   ],
   dependencies: [
-    .package(url: "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package", exact: "8.1.7"),
+    .package(url: "https://github.com/Mintegral-official/MintegralAdSDK-Swift-Package", exact: "8.1.8"),
     .package(url: "https://github.com/ironsource-mobile/LevelPlay-Swift-Package", "9.2.0"..<"10.0.0"),
   ],
   targets: [
@@ -22,8 +22,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "MintegralAdapterSDK",
-      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/mintegral-adapter/5.21.0/ISMintegralAdapter5.21.0.zip",
-      checksum: "83a71f5cbca7b538f447363b609f229827b61408bf18f2c6c24c59c0b5e783ee"
+      url: "https://raw.githubusercontent.com/ironsource-mobile/iOS-adapters/master/mintegral-adapter/5.22.0/ISMintegralAdapter5.22.0.zip",
+      checksum: "4eae0fd73ae1267f13629d17c62127980c8c30a6d053def705fb67256330803d"
     )
   ]
 )
